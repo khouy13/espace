@@ -1,0 +1,174 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:darkgrey;
+}
+.logo{
+    width:100%;
+    height:auto;
+}
+.main{
+    width:100%;
+    height:500px;
+    display:inline;
+    padding: 40px;
+}
+.div1{
+    width: 100%;
+    height:200px;
+    margin-bottom:20px;
+    border-radius:15px;
+}
+.div2{
+    background-color:white;
+    width: 100%;
+    height:49%;
+    border-radius:15px;
+}
+header{
+    position:fixed;
+    width:100%;
+    height: 100%;
+    background-color:#E2E2E2;
+    display: flex;
+}
+nav{
+    width:200px;
+    height:100%;
+    background-color:deepskyblue;
+    border-right:solid 0.01px deepskyblue 
+}
+nav ul{
+    list-style:none;
+    display:inline;
+}
+nav ul li{
+    padding-left:20px;
+    margin-top:30px;
+    transition:ms;
+}
+nav ul li:hover{
+    background-color: aqua;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+nav ul li .icon{
+    width:15px;
+    height: 15px;
+    margin-right:10px
+}
+.header{
+    height:100px;
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+}
+.section{
+    width: 30%;
+}
+.head{
+    display: flex;
+    justify-content:end;
+}
+.filiere{
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+.filiere section{
+    border-radius:6px;
+    width: 100px;
+    padding:10px;
+    margin-right:30px;
+    background-color: white;
+    align-items: stretch;
+}
+.filiere img{
+    width:20px;
+    height:20px;
+}
+.header input{
+    width:100%;
+    background-color:white;
+    height:30px;
+    border:solid 2px aliceblue;
+    border-radius:15px;
+    margin-top:3px;
+}
+.prof{
+    margin-left:20px;
+    width:45px;
+    height:40px;
+    border:solid 2px white;
+    border-radius:50%;
+}
+.para{
+    margin-right:5px;
+    width:15px;
+    height:15px;
+    border: solid 2px white;
+}
+.h{
+    display: inline;
+    color:darkblue;
+    text-decoration: none;
+}
+
+table{
+    width:100%;
+    height:100%;
+}
+th{
+    background-color:lightblue;
+    font-size:12px;
+}
+tbody td{
+    background-color:cornflowerblue;
+    text-align: center;
+}
+
+@media screen and (max-width:630px){
+    header{
+        display: inline;
+    }
+    header nav{
+       width: 180px;
+       display:flex;
+       width: 100%;
+       height:80px;
+    }
+    .logo{
+        width:80px;
+        height: 80px;
+    }
+    header nav ul{
+        display: flex;
+    }
+    nav ul li{
+        padding-left:2px;
+        margin-top:25px;
+    }
+    .header{
+        display: inline;
+        align-items: stretch;
+    }
+    .section{
+        width:100%;
+    }
+    .main{
+        padding:8px;
+    }
+    .head{
+        width:100%;
+        background-color: aqua;
+        display: flex;
+        justify-content: space-between;
+        margin-top:10px;
+        margin-bottom:20px;
+    }
+    th{
+        font-size:6px;
+    }
+}
